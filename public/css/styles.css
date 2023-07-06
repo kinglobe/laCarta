@@ -1,0 +1,247 @@
+header {
+  border-bottom: 3px solid lightgray;
+  /* espesor y color de linea */
+  padding: 40px;
+}
+
+header h2,
+header h3 {
+  margin-left: 30px;
+  /* corre espacio hacia la derecha*/
+
+}
+
+
+
+main {
+  margin-left: 300px;
+  /* margen derecho */
+  margin-top: 60px;
+  /* corre espacio hacia abajo*/
+  border-left: 3px solid lightgray;
+  /* espesor y color de linea */
+  padding-left: 50px;
+}
+
+
+h2,
+h3 {
+  margin: 0;
+  padding: 10px;
+}
+
+
+
+section p {
+  color: gray;
+  padding: 10px;
+}
+
+nav {
+  float: left;
+  margin-top: 5px;
+
+
+
+}
+
+nav ul {
+  list-style: none;
+  /* quita los puntos del nav */
+  padding: 80px;
+  /* aliniar a la derecha */
+
+
+}
+
+nav li {
+  margin-bottom: 20px;
+  /* espacion en el nav */
+
+}
+
+nav a {
+
+  text-decoration: none;
+  /* Quita la línea subrayada */
+  color: gray;
+  /* Cambia el color del texto según tus preferencias */
+}
+
+
+
+
+
+section img {
+  float: right;
+  /* colocar imagen de lado derecho */
+  margin-right: 340px;
+  /* margen izquierdo */
+  margin-top: 100px;
+  /* corre espacio hacia abajo*/
+  /* width: 40%; */
+
+
+}
+
+
+footer {
+  display: flex;
+  /* ayuda a dar direccion */
+  align-items: center;
+  padding: 30px;
+  background-color: lightgray;
+  /* color del fondo */
+}
+
+footer img {
+  margin-right: 10px;
+  width: 20%;
+}
+
+footer ul {
+  margin-left: auto;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  /* Mostrar las li a en columna */
+}
+
+footer li {
+  margin: 10px 0;
+  /* Agregar espacio entre las li a */
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+
+
+
+h2,
+h3 {
+  margin: 0;
+  padding: 10px;
+}
+
+
+@media  (max-width: 767px) {
+  header {
+    padding: 20px;
+  }
+
+  header h2,
+  header h3 {
+    margin-left: 10px;
+  }
+
+  main {
+    margin-left: 20px;
+    margin-top: 40px;
+    border-left: none;
+    padding-left: 30px;
+  }
+
+  section img {
+    float: none;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 80%;
+  }
+
+  nav {
+    float: none;
+    margin-top: 10px;
+  }
+
+  nav ul {
+    padding: 20px;
+  }
+
+  footer {
+    padding: 20px;
+  }
+
+  footer img {
+    margin-right: 5px;
+    width: 30%;
+  }
+
+  footer ul {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  footer li {
+    margin: 0 10px;
+  }
+
+  footer a {
+    font-size: 12px;
+  }
+}
+
+
+@media (min-width: 768px)  {
+  /* Estilos específicos para tabletas */
+  header {
+    padding: 30px;
+  }
+
+  main {
+    margin-left: 100px;
+    margin-top: 80px;
+    padding-left: 40px;
+  }
+
+  section img {
+    margin-right: 100px;
+    margin-top: 40px;
+    width: 60%;
+  }
+
+ 
+}
+
+
+@media  (min-width: 1024px) {
+  /* Estilos específicos para pantallas de escritorio */
+  header {
+    padding: 40px;
+  }
+
+  main {
+    margin-left: 300px;
+    margin-top: 60px;
+    padding-left: 50px;
+  }
+
+  section img {
+    float: right;
+    margin-right: 340px;
+    margin-top: 100px;
+    width: 40%;
+  }
+
+  footer {
+    padding: 30px;
+  }
+
+  footer img {
+    margin-right: 10px;
+    width: 20%;
+  }
+
+  footer ul {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+ 
+}
