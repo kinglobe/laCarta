@@ -130,6 +130,7 @@ h3 {
 
 
 @media  (max-width: 767px) {
+  /* estilos-telefonos */
   header {
     padding: 20px;
   }
@@ -188,7 +189,7 @@ h3 {
 
 
 @media (min-width: 768px)  {
-  /* Estilos específicos para tabletas */
+  /* Estilos-tabletas */
   header {
     padding: 30px;
   }
@@ -210,7 +211,7 @@ h3 {
 
 
 @media  (min-width: 1024px) {
-  /* Estilos específicos para pantallas de escritorio */
+  /* Estilos-escritorio */
   header {
     padding: 40px;
   }
