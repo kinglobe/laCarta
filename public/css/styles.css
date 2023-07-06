@@ -48,7 +48,7 @@ nav {
 nav ul {
   list-style: none;
   /* quita los puntos del nav */
-  padding: 80px;
+  padding: 65px;
   /* aliniar a la derecha */
 
 
@@ -65,7 +65,7 @@ nav a {
   text-decoration: none;
   /* Quita la línea subrayada */
   color: gray;
-  
+
 }
 
 
@@ -129,7 +129,8 @@ h3 {
 }
 
 
-@media  (max-width: 767px) {
+@media (max-width: 767px) {
+
   /* estilos-telefonos */
   header {
     padding: 20px;
@@ -188,29 +189,32 @@ h3 {
 }
 
 
-@media (min-width: 768px)  {
+@media (min-width: 768px) {
+
   /* Estilos-tabletas */
   header {
     padding: 30px;
   }
 
   main {
-    margin-left: 100px;
-    margin-top: 80px;
-    padding-left: 40px;
+    margin-left: 230px;
+    margin-top: 70px;
+    padding-left: 70px;
+    
   }
 
   section img {
     margin-right: 100px;
     margin-top: 40px;
-    width: 60%;
+    width: 40%;
   }
 
- 
+
 }
 
 
-@media  (min-width: 1024px) {
+@media (min-width: 1024px) {
+
   /* Estilos-escritorio */
   header {
     padding: 40px;
@@ -224,7 +228,7 @@ h3 {
 
   section img {
     float: right;
-    margin-right: 340px;
+    margin-right: 280x;
     margin-top: 100px;
     width: 40%;
   }
@@ -244,5 +248,5 @@ h3 {
     flex-direction: column;
   }
 
- 
+
 }
